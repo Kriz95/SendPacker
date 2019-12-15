@@ -1,0 +1,114 @@
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2ecc71;
+    border: 0;
+    font-size: 13px !important;
+    opacity: 0.9;
+    /*barra*/
+}
+
+
+.navbar li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.navbar li:hover {
+    background: white;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: black;
+    text-decoration: none;    
+    /*color de letras de barra*/
+}
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+
+.dropdown-menu{
+    font-size: 13px !important;
+}
+
+.dropdown-menu a {
+    color: #000 !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: red !important;
+}
+
+@media (max-width: 992px){
+    .navbar{
+        opacity: 1;
+    }
+    .navbar li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 2em;
+        padding-right: 2em;
+
+    }
+    .dropdown:hover .dropdown-menu{
+        border: none;
+        background: white !important;
+        border-radius: 0px !important;
+    }
+    .dropdown-menu{
+        background: #2ecc71;
+        border:none;
+    }
+
+}
+@media (max-width: 992px){
+
+    #fondo_tienda{
+        padding-top: 50px;
+    }
+}
+
+.img-arti{
+    width: auto;
+    height: 220px;
+}
+
+.img-market{
+    padding-top: 6em;
+}
+
+.arti-block{
+    width: 350px;
+    height: auto;
+    -webkit-transition: box-shadow 100ms linear;
+    -moz-transition: box-shadow 100ms linear;
+    -ms-transition: box-shadow 100ms linear;
+    -o-transition: box-shadow 100ms linear;
+    transition: box-shadow 100ms linear;
+}
+.arti-block:hover{
+    -webkit-box-shadow: 0 0 12px 2px #7D7D7D;
+    -moz-box-shadow: 0 0 12px 2px #7D7D7D;
+    box-shadow: 0 0 12px 2px #7D7D7D;
+}
+
+.fondo-market{
+    background-size: 100px;
+    background: url("../../resourse/img/background_market.jpg") repeat fixed;
+}
+#arti-fond{
+    background: white !important;
+}

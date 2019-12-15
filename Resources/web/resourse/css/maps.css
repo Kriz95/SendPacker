@@ -1,0 +1,17 @@
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+ .map {
+    height: 400px;
+ }
+.limitermap{
+    width: 100%;
+    min-height: 10hv;
+}
+.maprute {
+    height: 100%;
+ }
+.limiterrute{
+    width: 100%;
+    min-height: 100%;
+}
+

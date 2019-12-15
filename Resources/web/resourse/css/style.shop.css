@@ -1,0 +1,64 @@
+
+nav{
+background: black;
+
+}
+@media (min-width:992px){
+nav li :hover{
+    border-bottom: orange solid;
+    -webkit-animation: cssAnimation 1s 1 ease;
+    -moz-animation: cssAnimation 1s 1 ease;
+    -o-animation: cssAnimation 1s 1 ease;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+to { -webkit-transform: rotate(0deg) scale(1.5) skew(0deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+to { -moz-transform: rotate(0deg) scale(1.5) skew(0deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+to { -o-transform: rotate(0deg) scale(1.5) skew(0deg) translate(0px); }
+}
+nav li a i{
+    border: none !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+}
+nav li a span {
+    border: none !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+}
+.styletabla{
+    padding-top: 100px;
+}
+}
+
+@media (max-width: 992px){
+    nav{
+        background-color: black;
+    }
+    nav li{
+        text-align: center;
+    }
+    nav li :hover{
+        background-color: gainsboro;
+        border-radius: 5px;
+    }
+    nav li a:hover{
+        color: black !important;
+    }
+    .styletabla{
+    padding-top: 70px;
+}
+    
+}
+
+
+
+
